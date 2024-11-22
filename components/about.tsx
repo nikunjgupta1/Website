@@ -11,7 +11,7 @@ export function About() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="container"
+        className="text-center"
       >
         <h2 className="mb-8 text-3xl font-bold">About Me</h2>
         <Card>

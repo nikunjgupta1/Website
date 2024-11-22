@@ -17,8 +17,8 @@ const skills = [
 
 export function Skills() {
   return (
-    <section id="skills" className="py-20 bg-muted/50">
-      <div className="container">
+    <section id="skills" className="py-20">
+      <div className="text-center">
         <h2 className="mb-8 text-3xl font-bold">Skills</h2>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
           {skills.map((skill, index) => (
@@ -42,4 +42,3 @@ export function Skills() {
     </section>
   )
 }
-

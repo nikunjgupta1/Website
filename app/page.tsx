@@ -12,11 +12,13 @@ export default function Home() {
       <Nav />
       <main className="pl-16">
         <Hero />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Resume />
-        <Contact />
+        <div className="max-w-4xl mx-auto px-4">
+          <About />
+          <Skills />
+          <Portfolio />
+          <Resume />
+          <Contact />
+        </div>
       </main>
     </div>
   )

@@ -6,10 +6,10 @@ import { Download } from 'lucide-react'
 
 export function Resume() {
   return (
-    <section id="resume" className="py-20 bg-muted/50">
-      <div className="container">
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="text-3xl font-bold">Resume</h2>
+    <section id="resume" className="py-20">
+      <div className="text-center">
+        <div className="flex items-center justify-center mb-8">
+          <h2 className="text-3xl font-bold mr-4">Resume</h2>
           <Button asChild>
             <a href="https://drive.google.com/file/d/1ZHYX8v87-NrokDPMOmOdogySGpjqs-r0/view" target="_blank" rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4" />
@@ -34,4 +34,3 @@ export function Resume() {
     </section>
   )
 }
-

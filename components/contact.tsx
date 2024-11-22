@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button"
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-muted/50">
-      <div className="container max-w-2xl">
+    <section id="contact" className="py-20">
+      <div className="text-center">
         <h2 className="mb-8 text-3xl font-bold">Contact Me</h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -46,4 +46,3 @@ export function Contact() {
     </section>
   )
 }
-
