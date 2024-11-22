@@ -1,5 +1,6 @@
 "use client"
 
+import * as React from "react"
 import { motion } from "framer-motion"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -54,7 +55,7 @@ export function Portfolio() {
                 />
                 <CardContent className="p-6">
                   <div className="flex items-center justify-center mb-4">
-                    {React.createElement(project.icon, { className: "w-6 h-6 mr-2" })}
+                    <project.icon className="w-6 h-6 mr-2" />
                     <h3 className="text-xl font-bold">{project.title}</h3>
                   </div>
                   <p className="text-muted-foreground">{project.description}</p>
