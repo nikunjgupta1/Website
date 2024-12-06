@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Georgia Tech Course Tracker",
     description: "An asynchronous web scraping system using Python's aiohttp and BeautifulSoup4 that tracks real-time course availability with 2-second refresh intervals.",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VudGltZW50JTIwYW5hbHlzaXN8ZW58MHx8MHx8fDA%3D",
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     demo: "https://drive.google.com/file/d/1NpPMp9Z-YMdYjdid7rYPR2HNHgcfqkOu/view?usp=sharing",
     Icon: Brain,
   },
