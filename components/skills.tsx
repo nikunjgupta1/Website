@@ -11,7 +11,7 @@ const skills = [
   { name: "JavaScript", icon: FileCode2 },
   { name: "SQL", icon: Database },
   { name: "Git", icon: Git },
-  { name: "Linux", icon: Terminal },
+  { name: "React", icon: Terminal },
   { name: "Node.js", icon: Server },
 ]
 
