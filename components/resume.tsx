@@ -11,7 +11,7 @@ export function Resume() {
         <div className="flex items-center justify-center mb-8">
           <h2 className="text-3xl font-bold mr-4">Resume</h2>
           <Button asChild>
-            <a href="https://drive.google.com/file/d/1ZHYX8v87-NrokDPMOmOdogySGpjqs-r0/view" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/19UKk_3HHY3N8nOl1ITNmEBDYTd-B5hp_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4" />
               View PDF
             </a>
@@ -24,7 +24,7 @@ export function Resume() {
           viewport={{ once: true }}
         >
           <iframe
-            src="https://drive.google.com/file/d/1ZHYX8v87-NrokDPMOmOdogySGpjqs-r0/preview"
+            src="https://drive.google.com/file/d/19UKk_3HHY3N8nOl1ITNmEBDYTd-B5hp_/preview"
             width="100%"
             height="800px"
             allow="autoplay"
